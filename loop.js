@@ -15,9 +15,10 @@
 //     console.log(start);
 // }
 
-for (let start = 0; start <= 50; start++) {
-    if (start % 5 == 0) {
-        continue;
-    }
-    console.log(start)
-}
+// for (let start = 0; start <= 50; start++) {
+//     if (start % 5 == 0) {
+//         continue;
+//     }
+//     console.log(start)
+// }
+
