@@ -154,3 +154,10 @@ let lo = [1, 4, 6, 7, 80, 34, [23, 67, 45], 33, 77, 99, [123, 456, 789]]
 let ol = lo.flat();
 
 console.log(ol)
+
+//array k andr k kisi element ko update krna ho tb
+let ghy = [12, 34, 56, 78, 90]
+
+ghy[4] = 1000
+
+console.log(ghy);
