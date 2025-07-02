@@ -1,0 +1,160 @@
+  <button class="btn">click me bhai</button>
+    let button = document.querySelector('.btn')
+
+button.addEventListener('click', () => {
+    alert("Hello Safia!")
+
+})
+-----------------------------------------------------------------------------------------------
+    <p id="para">Safia</p>
+    <button>click me</button>
+    
+let para = document.querySelector('#para')
+let button = document.querySelector('button')
+    
+button.addEventListener('click', () => {
+    console.log("Welcome " + para.textContent)
+})
+
+------------------------------------------------------------------------------------------------------
+
+    function add_of_two_number(num1, num2) {
+    const num3 = num1 + num2
+    console.log(`add of two number is ${num3}`)
+}
+
+add_of_two_number(123, 678)
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+  <input type="text" placeholder="enter your name here..">
+    <button>Click</button>
+
+  let input_box = document.querySelector('input')
+
+let button = document.querySelector('button')
+
+button.addEventListener('click', () => {
+
+    alert('hello ' + input_box.value)
+
+
+})
+----------------------------------------------------------------------------------------------------------------------------
+<input type="number" placeholder="enter your age">
+    <button>click</button>
+
+
+let input = document.querySelector('input')
+let button = document.querySelector('button')
+
+button.addEventListener('click', () => {
+
+    let age = Number(input.value)
+      
+    if (age < 18) {
+        alert('You are minor')
+    } else {
+        alert("You are adult")
+    }
+})
+--------------------------------------------------------------------------------------------------------------------------------
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ad quidem sapiente ex, nemo, quas dicta
+        voluptatem, quod ullam itaque sunt consectetur inventore molestias eveniet consequuntur dolor incidunt. Ullam,
+        incidunt.</p>
+
+    <button class="btn1">show_para</button>
+    <button class="btn2">hide_para</button>
+
+
+
+    let para = document.querySelector('p')
+
+let show_para = document.querySelector('.btn1')
+
+let hide_para = document.querySelector('.btn2')
+
+show_para.addEventListener('click', () => {
+
+    para.style.display = 'block';
+})
+
+hide_para.addEventListener('click', () => {
+    para.style.display = 'none';
+})
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+<h1>safia</h1>
+    <button>new_text</button>
+
+   let head = document.querySelector('h1')
+let button = document.querySelector('button')
+
+button.addEventListener('click', () => {
+    head.innerText = 'hello safia'
+})
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+           <div class="box"></div>
+          <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+            margin: 20px;
+        }
+    </style>
+    <button class="btn">change_bg</button>
+
+      
+      let input = document.querySelector('.box')
+let button = document.querySelector('.btn')
+
+button.addEventListener('click', () => {
+    let color = ['red', 'green', 'yellow', 'orange', 'black']
+    let index = Math.floor(Math.random() * color.length);
+    input.style.backgroundColor = color[index];
+
+})
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+let button = document.querySelector('.btn')
+let body = document.querySelector('body')
+
+button.addEventListener('click', () => {
+    let color = ['red', 'green', 'yellow', 'orange', 'black']
+    let index = Math.floor(Math.random() * color.length);
+    body.style.backgroundColor = color[index];
+
+})
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------      
+ <button class="btn">change_fruits</button>
+      
+let button = document.querySelector('.btn');
+
+
+button.addEventListener('click', () => {
+    let arr = ["apple", "banana", "mango", "papaya", "orange", "guava"];
+
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]); // 
+    }
+});
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      <input type="text" placeholder="enter your name here...">
+    <button class="btn">length_checker</button>
+let input = document.querySelector('input');
+let button = document.querySelector('.btn');
+
+button.addEventListener('click', () => {
+    let chek = input.value.length
+    console.log(chek)
+})
+      
+      
+      
